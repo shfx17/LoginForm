@@ -1,0 +1,18 @@
+<div class="container__overlay">
+	<div class="container__overlay-class">
+		<div class="container__overlay-panel container__overlay-left">
+			<h1>{{ title_login }}</h1>
+			<p>{{ description_login }}</p>
+			<button class="ghost pointer" id="signIn">{{ title_login }}</button>
+		</div>
+		<div class="container__overlay-panel container__overlay-right">
+			<h1>{{ page_title }}</h1><br />
+			<p>{{ description_register }}
+				{% for item in information.language %}
+					{{ item.name }},
+				{% endfor %}
+			</p>
+			<button class="ghost pointer" id="signUp">{{ title_register }}</button>
+		</div>
+	</div>
+</div>

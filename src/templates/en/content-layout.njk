@@ -1,0 +1,20 @@
+<html lang="{% if page_language_en == 'en' %}en{% else %}pl{% endif%}">
+	<head>
+        <title>{{ page_title }}</title>
+		{% include "parts/linkrel-html-head.njk" %}
+	</head>
+	<body>
+		<div class="container" id="container">
+			
+             {% include "parts/form-register.njk" %}
+
+			 {% include "parts/form-login.njk" %}
+
+             {% include "parts/form-overlay.njk" %}
+			
+		</div>
+
+		 {% include "scripts/alert.njk" %}
+
+	</body>
+</html>

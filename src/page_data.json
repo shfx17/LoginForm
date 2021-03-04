@@ -1,0 +1,18 @@
+{
+    "page_title": "Simple project GULP+Nunjucks+SASS",
+
+    "title_login": "Log in",
+    "title_register": "Register",
+
+    "information": {
+        "language" : [
+            { "name": "GULP" },
+            { "name": "Nunjucks" },
+            { "name": "SASS" },
+            { "name": "ES6" }
+        ]
+    },
+
+    "description_login": "If you want to login, you have to click the button below.u",
+    "description_register": "This is a simple login/register theme in"
+}
